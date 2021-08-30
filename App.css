@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+    min-height: 100vh;
+}
+
+.addButton {
+    height: 30px;
+    width: 50px;
+}
+.input{
+    height: 30px;
+    margin-right: 10px;
+
+}
+h1{
+text-align: center;
+margin-top: 50px;
+font-size: 70px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+
+}
+.listContaier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.list{
+    min-width: 50%;
+    list-style: disc;
+}
+.todo{
+    font-size: 1.5 rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: space-around;
+    color: white;
+    font-size: 30px;
+}
+.todo-item{
+    margin-right: 10px;
+    min-width: 50%;
+    
+}
+.completed{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.completeButton, .removeButton{
+    margin-right: 10px;
+    padding: 8px;
+    color: black;
+}
+.completeButton{
+    background-color: greenyellow;
+}
+.removeButton{
+    background-color: red;
+}
